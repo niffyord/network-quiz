@@ -152,6 +152,146 @@ const quizQuestions = [
         correctAnswer: 0
     },
     {
+        question: "A technician is troubleshooting network connectivity from a wall jack. Readings from a multimeter indicate extremely low ohmic values instead of the rated impedance from the switchport. Which of the following is the MOST likely cause of this issue?",
+        options: [
+            "Incorrect transceivers",
+            "Faulty LED",
+            "Short circuit",
+            "Upgraded OS version on switch"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "A large number of PCs are obtaining an APIPA IP address, and a number of new computers were added to the network. Which of the following is MOST likely causing the PCs to obtain an APIPA address?",
+        options: [
+            "Rogue DHCP server",
+            "Network collision",
+            "Incorrect DNS settings",
+            "DHCP scope exhaustion"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "Users are reporting performance issues when attempting to access the main fileshare server. Which of the following steps should a network administrator perform next based on the network troubleshooting methodology?",
+        options: [
+            "Implement a fix to resolve the connectivity issues.",
+            "Determine if anything has changed.",
+            "Establish a theory of probable cause.",
+            "Document all findings, actions, and lessons learned."
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "Which of the following, in addition to a password, can be asked of a user for MFA?",
+        options: [
+            "PIN",
+            "Favorite color",
+            "Hard token",
+            "Mother's maiden name"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "A network technician wants to find the shortest path from one node to every other node in the network. Which of the following algorithms will provide the FASTEST convergence time?",
+        options: [
+            "A static algorithm",
+            "A link-state algorithm",
+            "A distance-vector algorithm",
+            "A path-vector algorithm"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "A customer is hosting an internal database server. None of the users are able to connect to the server, even though it appears to be working properly. Which of the following is the best way to verify traffic to and from the server?",
+        options: [
+            "Protocol analyzer",
+            "nmap",
+            "ipconfig",
+            "Speed test"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "A network technician needs to ensure that all files on a company's network can be moved in a safe and protected manner without interception from someone who is not the intended recipient. Which of the following would allow the network technician to meet these requirements?",
+        options: [
+            "FTP",
+            "TFTP",
+            "SMTP",
+            "SFTP"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "A network architect is developing documentation for an upcoming IPv4/IPv6 dual‐stack implementation. The architect wants to shorten the following IPv6 address: ef82:0000:00O0:000O:0O00:1ab1:1234:1bc2. Which of the following is the MOST appropriate shortened version?",
+        options: [
+            "ef82:0:lab1:1234:1bc2",
+            "ef82:0:;1ab1:1234:1bc2",
+            "ef82:0:0:0:0:1ab1:1234:1bc2",
+            "ef82::1ab1:1234:1bc2"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "A company is reviewing ways to cut the overall cost of its IT budget. A network technician suggests removing various computer programs from the IT budget and only providing these programs on an as‐needed basis. Which of the following models would meet this requirement?",
+        options: [
+            "Multitenancy",
+            "IaaS",
+            "SaaS",
+            "VPN"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "A company is opening a new building on the other side of its campus. The distance from the closest building to the new building is 1,804ft (550m). The company needs to connect the networking equipment in the new building to the other buildings on the campus without using a repeater. Which of the following transceivers should the company use?",
+        options: [
+            "10GBASE-SW",
+            "10GBASE-LR",
+            "10GBASE-LX4 over multimode fiber",
+            "10GBASE-SR"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "The Chief Executive Officer of a company wants to ensure business operations are not disrupted in the event of a disaster. The solution must have fully redundant equipment, real‐time synchronization, and zero data loss. Which of the following should be prepared?",
+        options: [
+            "Cloud site",
+            "Warm site",
+            "Hot site",
+            "Cold site"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "In which of the following components do routing protocols belong in a software‐defined network?",
+        options: [
+            "Infrastructure layer",
+            "Control layer",
+            "Application layer",
+            "Management plane"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "A network engineer designed and implemented a new office space with the following characteristics: one month after implementation, users began reporting dropped signals when entering another room and overall poor connections to the 5GHz network. Which of the following should the engineer do to best resolve the issue?",
+        options: [
+            "Use non‐overlapping channels",
+            "Reconfigure the network to support 2.4GHz",
+            "Upgrade to WPA3",
+            "Change to directional antennas"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "A network administrator needs to monitor traffic on a specific port on a switch. Which of the following should the administrator configure to accomplish the task?",
+        options: [
+            "Port security",
+            "Port tagging",
+            "Port mirroring",
+            "Media access control"
+        ],
+        correctAnswer: 2
+    },
+    {
         question: "A technician is investigating why a PC cannot reach a file server with the IP address 192.168.8.129. Given the network configuration, which of the following configurations on the PC is incorrect?",
         options: [
             "Subnet mask",
@@ -242,14 +382,14 @@ const quizQuestions = [
         correctAnswer: 2
     },
     {
-        question: "A network administrator needs to monitor traffic on a specific port on a switch. Which of the following should the administrator configure to accomplish the task?",
+        question: "A network technician receives a support ticket concerning multiple users who are unable to access the company's shared drive. The switch interface that the shared drive is connected to is displaying an error. Which of the following is MOST likely the issue?",
         options: [
-            "Port security",
-            "Port tagging",
-            "Port mirroring",
-            "Media access control"
+            "The switchport is shut down",
+            "The cable is not plugged in.",
+            "The loopback is not set",
+            "The bandwidth configuration is incorrect."
         ],
-        correctAnswer: 2
+        correctAnswer: 0
     },
     {
         question: "A network engineer needs to change an entire subnet of SLAAC-configured workstation addresses. Which of the following methods would be the best for the engineer to use?",
