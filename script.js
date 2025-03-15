@@ -501,6 +501,514 @@ const quizQuestions = [
             "Private"
         ],
         correctAnswer: 1
+    },
+    {
+        question: "26. Users in a branch can access an in‑house database server, but it takes too long to fetch records. The analyst is unsure if network latency is the cause.",
+        options: [
+            "SNMP",
+            "Link state",
+            "Syslog",
+            "QoS",
+            "Traffic shaping"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "27. A customer reports no resource access after replacing switches. On site, the technician finds redundant links between two switches. Which is the most likely cause?",
+        options: [
+            "The ARP cache is corrupt",
+            "CSMA/CD protocols have failed",
+            "STP is not configured",
+            "The switches are incompatible models"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "28. Users report performance issues when accessing the main fileshare server. According to troubleshooting methodology, what is the next step?",
+        options: [
+            "Implement a fix immediately",
+            "Determine if anything has changed",
+            "Establish a theory of probable cause",
+            "Document all findings and actions"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "29. Which of the following, in addition to a password, can be requested for multi‑factor authentication (MFA)?",
+        options: [
+            "PIN",
+            "Favorite color",
+            "Hard token",
+            "Mother's maiden name"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "30. To find the shortest path from one node to every other node quickly, which routing algorithm provides the fastest convergence time?",
+        options: [
+            "A static algorithm",
+            "A link‑state algorithm",
+            "A distance‑vector algorithm",
+            "A path‑vector algorithm"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "31. A customer is hosting an internal database server but no one can connect to it. What is the best way to verify traffic to and from the server?",
+        options: [
+            "Protocol analyzer",
+            "nmap",
+            "ipconfig",
+            "Speed test"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "32. To safely move all files on a company network without interception, which method should be used?",
+        options: [
+            "FTP",
+            "TFTP",
+            "SMTP",
+            "SFTP"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "33. An architect needs to shorten the IPv6 address 'ef82:0000:00O0:000O:0O00:1ab1:1234:1bc2.' Which is the most appropriate shortened version?",
+        options: [
+            "ef82:0:lab1:1234:1bc2",
+            "ef82:0:;1ab1:1234:1bc2",
+            "ef82:0:0:0:0:1ab1:1234:1bc2",
+            "ef82::1ab1:1234:1bc2"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "34. To cut overall IT budget costs by providing programs only as needed, which service model meets this requirement?",
+        options: [
+            "Multitenancy",
+            "IaaS",
+            "SaaS",
+            "VPN"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "35. A company must connect a new building (1,804 ft away) without using a repeater. Which transceiver should be used?",
+        options: [
+            "10GBASE-SW",
+            "10GBASE-LR",
+            "10GBASE-LX4 over multimode fiber",
+            "10GBASE-SR"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "36. For disaster recovery, the CEO requires fully redundant equipment with real‑time synchronization and zero data loss. What should be prepared?",
+        options: [
+            "Cloud site",
+            "Warm site",
+            "Hot site",
+            "Cold site"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "37. In a software‑defined network, in which component do routing protocols reside?",
+        options: [
+            "Infrastructure layer",
+            "Control layer",
+            "Application layer",
+            "Management plane"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "38. One month after a new office space implementation, users report dropped signals and poor 5GHz connectivity. What is the best resolution?",
+        options: [
+            "Use non‑overlapping channels",
+            "Reconfigure to support 2.4GHz",
+            "Upgrade to WPA3",
+            "Change to directional antennas"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "39. What is the IEEE link cost for a Fast Ethernet interface in STP calculations?",
+        options: [
+            "2",
+            "4",
+            "19",
+            "100"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "40. To monitor traffic on a specific switch port, which configuration should be used?",
+        options: [
+            "Port security",
+            "Port tagging",
+            "Port mirroring",
+            "Media access control"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "41. A technician finds that a PC cannot reach the file server at 192.168.8.129. Which PC configuration is most likely incorrect?",
+        options: [
+            "Subnet mask",
+            "IPv4 address",
+            "Default gateway",
+            "IPv6 address"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "42. After determining the cause of a network disruption, what is the NEXT step for the technician?",
+        options: [
+            "Validate findings in a top‑to‑bottom approach",
+            "Duplicate the issue, if possible",
+            "Establish a plan of action to resolve the issue",
+            "Document the findings and actions"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "43. Which connection method is most secure for inspecting and controlling internet access for remote employees?",
+        options: [
+            "Site‑to‑site VPN",
+            "Full‑tunnel VPN",
+            "Split‑tunnel VPN",
+            "SSH"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "44. Which architecture does FTP use?",
+        options: [
+            "Client‑server",
+            "Service‑oriented",
+            "Connection‑oriented",
+            "Data‑centric"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "45. To reduce the effectiveness of a rainbow table attack, which aspect must be addressed?",
+        options: [
+            "Password policy",
+            "Remote access policy",
+            "Acceptable use policy",
+            "Data loss prevention policy"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "46. Which method is best for passing along troubleshooting steps for a fixed issue?",
+        options: [
+            "Use change management to build a database",
+            "Send an email stating resolution",
+            "Document the lessons learned",
+            "Close the ticket and inform users"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "47. After a successful phishing attack, which strategy best mitigates its effects?",
+        options: [
+            "Multifactor authentication",
+            "Single sign‑on",
+            "RADIUS",
+            "VPN"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "48. A company’s web server is hosted at a local ISP. This is an example of:",
+        options: [
+            "Allocation",
+            "On‑premises data center",
+            "Branch office",
+            "Cloud provider"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "49. For an industrial control system requiring TKIP encryption with a symmetrical password, which wireless configuration should be used?",
+        options: [
+            "WPA2‑Enterprise",
+            "WPA‑Enterprise",
+            "WPA‑PSK",
+            "WPA2‑PSK"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "50. A support ticket shows that users cannot access the shared drive because the switch interface displays an error. What is most likely wrong?",
+        options: [
+            "The switchport is shut down",
+            "The cable is not plugged in",
+            "The loopback is not set",
+            "The bandwidth configuration is incorrect"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "51. A network engineer needs to change an entire subnet of SLAAC‑configured workstation addresses. Which method is best?",
+        options: [
+            "Change the address prefix in ARP so that the workstations retrieve their new addresses",
+            "Change the address prefix in a router so that the router advertises the new prefix with Neighbor Discovery",
+            "Change the address prefix scope in a DHCP server so that the workstations retrieve their new addresses",
+            "Manually change each workstation’s address prefix"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "52. Developers must connect remotely to another server to access production applications. What does this setup BEST represent?",
+        options: [
+            "A management plane",
+            "A proxy server",
+            "An out‑of‑band management device",
+            "A site‑to‑site VPN",
+            "A jump box"
+        ],
+        correctAnswer: 4
+    },
+    {
+        question: "53. To determine if an internal server was accessed by external hosts, which log should be reviewed?",
+        options: [
+            "The server's syslog",
+            "NetFlow statistics",
+            "The firewall logs",
+            "The audit logs on the core switch"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "54. When troubleshooting intermittent Wi‑Fi in parts of a building, what should be checked first? (Select TWO)",
+        options: [
+            "Site survey",
+            "EIRP",
+            "AP placement",
+            "Captive portal",
+            "SSID assignment",
+            "AP association time"
+        ],
+        correctAnswer: [0, 2]
+    },
+    {
+        question: "55. When adding OT devices to an organization’s architecture, which configuration is recommended?",
+        options: [
+            "Honeynet",
+            "Data‑at‑rest encryption",
+            "Time‑based authentication",
+            "Network segmentation"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "56. During a risk assessment for mitigating high CPU utilization on a firewall, which factor should be considered?",
+        options: [
+            "Recovery time objective",
+            "Uninterruptible power supply",
+            "NIC teaming",
+            "Load balancing"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "57. For a SAN design that uses a specific medium for communication, which protocol best suits the company’s needs?",
+        options: [
+            "SFTP",
+            "Fibre Channel",
+            "iSCSI",
+            "FTP"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "58. A CEO and network administrator agreed with a vendor on new data center equipment. Which document best describes the scope before work begins?",
+        options: [
+            "Contract",
+            "Project charter",
+            "Memorandum of understanding",
+            "Non‑disclosure agreement"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "59. In a forest reserve network using fiber optics, which action will reduce repair time when checking cable integrity?",
+        options: [
+            "Use a tone generator and wire map to determine the fault location",
+            "Use a multimeter to locate the fault point",
+            "Use an OTDR on one end of the cable to get the length information",
+            "Use a spectrum analyzer and compare the current wavelength with a working baseline"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "60. Which issues are associated with RIPv2? (Select TWO)",
+        options: [
+            "Route poisoning",
+            "Time to converge",
+            "Scalability",
+            "Unicast",
+            "Adjacent neighbors",
+            "Maximum transmission unit"
+        ],
+        correctAnswer: [1, 2]
+    },
+    {
+        question: "61. For link port aggregation between a Gigabit distribution switch and a Fast Ethernet access switch, what is the best interface setting?",
+        options: [
+            "Half duplex and 1GB speed",
+            "Full duplex and 1GB speed",
+            "Half duplex and 10OMB speed",
+            "Full duplex and 100MB speed"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "62. A laptop taken on a trip now accesses internet sites but not corporate intranet sites. What is the most likely cause?",
+        options: [
+            "Duplicate IP address",
+            "Duplicate SSID",
+            "Incorrect DNS",
+            "Incorrect subnet mask"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "63. After installing 35 additional workstations, some original workstations (previously offline) now cannot access network resources. What is most likely the cause?",
+        options: [
+            "Incorrect VLAN setting",
+            "Insufficient DHCP scope",
+            "Improper NIC setting",
+            "Duplicate IP address"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "64. To reduce costs and increase mobility, a CTO wants key services on‑site and enterprise services in the cloud. Which deployment model is best?",
+        options: [
+            "Public",
+            "Hybrid",
+            "SaaS",
+            "Private"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "65. Due to non‑uniform and overly permissive access permissions, security incidents are rising. What is the best method to improve security?",
+        options: [
+            "Change default permissions to implicit deny",
+            "Configure uniform ACLs for employees and NAC for contractors",
+            "Deploy an RDP server for centralized access",
+            "Implement role‑based access control"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "66. To view the certificate exchange between a server and a client, which tool should a network engineer use?",
+        options: [
+            "dig",
+            "tcpdump",
+            "nmap",
+            "traceroute"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "67. For a new office with a single public IP, which RFC1918 subnet should be used for the LAN?",
+        options: [
+            "10.10.10.0/24",
+            "127.16.10.0/24",
+            "174.16.10.0/24",
+            "198.18.10.0/24"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "68. A company’s management requires that core network hardware be repairable in under 60 minutes if a major part fails. Which metric is associated with this requirement?",
+        options: [
+            "RPO",
+            "MTTR",
+            "FHRP",
+            "MTBF"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "69. When setting up DNS records on local servers for cloud access by hostname, which record type should be used?",
+        options: [
+            "A",
+            "MX",
+            "CNAME",
+            "NS"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "70. Which port number is used by a secure protocol (HTTPS)?",
+        options: [
+            "20",
+            "23",
+            "443",
+            "445"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "71. For intermittent Wi‑Fi connectivity, what should be checked first? (Select TWO)",
+        options: [
+            "Site survey",
+            "EIRP",
+            "AP placement",
+            "Captive portal",
+            "SSID assignment",
+            "AP association time"
+        ],
+        correctAnswer: [0, 2]
+    },
+    {
+        question: "72. When all users can access local resources but not external websites—and a ping returns 'TTL expired in transit'—what best explains this result?",
+        options: [
+            "Incorrect VLAN settings",
+            "Upstream routing loop",
+            "Network collisions",
+            "DNS misconfiguration"
+        ],
+        correctAnswer: 3
+    },
+    {
+        question: "73. To verify throughput of a new metro Ethernet circuit per the SLA, which tool is best?",
+        options: [
+            "iPerf",
+            "Ping",
+            "NetFlow",
+            "Netstat"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "74. A technician finds transceivers labeled '8Gbps' in a storage closet. Which protocol uses these transceivers?",
+        options: [
+            "Coaxial over Ethernet",
+            "Internet Small Computer Systems Interface",
+            "Fibre Channel",
+            "Gigabit interface converter"
+        ],
+        correctAnswer: 2
+    },
+    {
+        question: "75. When users can access local resources but not external websites and a command output indicates 'TTL expired in transit,' what is the best explanation?",
+        options: [
+            "Incorrect VLAN settings",
+            "Upstream routing loop",
+            "Network collisions",
+            "DNS misconfiguration"
+        ],
+        correctAnswer: 3
     }
 ];
 
